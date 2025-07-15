@@ -1,15 +1,15 @@
 variable "project" {
-    type = string
+  type = string
 }
 
 variable "environment" {
-    type = string
+  type = string
 }
 
 variable "cidr_block" {
-    default = "10.0.0.0/16"
+  default = "10.0.0.0/16"
 }
 
 variable "public_subnet_cidrs" {
-    type = list(string)
+  type = list(string)
 }
